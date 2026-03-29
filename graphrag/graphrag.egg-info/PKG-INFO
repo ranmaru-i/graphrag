@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: graphrag
+Version: 0.1.0
+Summary: Development version of GraphRAG
+Requires-Python: >=3.9

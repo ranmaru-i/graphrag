@@ -1,0 +1,115 @@
+# Copyright (c) 2024 Microsoft Corporation.
+# Licensed under the MIT License
+
+"""A module containing run_workflow method definition."""
+
+import logging
+
+import pandas as pd
+
+from graphrag.config.models.graph_rag_config import GraphRagConfig
+from graphrag.data_model.schemas import DOCUMENTS_FINAL_COLUMNS
+from graphrag.index.typing.context import PipelineRunContext
+from graphrag.index.typing.workflow import WorkflowFunctionOutput
+from graphrag.utils.storage import load_table_from_storage, write_table_to_storage
+
+logger = logging.getLogger(__name__)
+
+
+async def run_workflow(
+    _config: GraphRagConfig,
+    context: PipelineRunContext,
+) -> WorkflowFunctionOutput:
+    """All the steps to transform final documents."""
+    logger.info("Workflow started: create_final_documents")
+    documents = await load_table_from_storage("documents", context.output_storage)
+    text_units = await load_table_from_storage("text_units", context.output_storage)
+
+    output = create_final_documents(documents, text_units)
+
+    await write_table_to_storage(output, "documents", context.output_storage)
+
+    logger.info("Workflow completed: create_final_documents")
+    return WorkflowFunctionOutput(result=output)
+
+#TFIDF版の時はコメントアウト外す
+def _ensure_list_column(series: pd.Series) -> pd.Series:
+    #Ensure each element of a series is a list (convert scalars/NaN to list or empty list).
+    def _to_list(v):
+        if isinstance(v, list):
+            return v
+        if pd.isna(v):
+            return []
+        # if tuple or set, convert to list
+        if isinstance(v, (tuple, set)):
+            return list(v)
+        # otherwise wrap scalar
+        return [v]
+    return series.apply(_to_list)
+#ここまで
+
+def create_final_documents(
+    documents: pd.DataFrame, text_units: pd.DataFrame
+) -> pd.DataFrame:
+    """All the steps to transform final documents."""
+
+    #TFIDF版の時はコメントアウト外す
+    # --- safety: ensure text_units has document_ids column ---
+    if "document_ids" not in text_units.columns:
+        logger.info(
+            "text_units has no 'document_ids' column — creating document_ids from text_units.id"
+        )
+        # Work on a copy to avoid mutating upstream unexpectedly
+        text_units = text_units.copy()
+        text_units["document_ids"] = text_units["id"].apply(lambda x: [x])
+
+    # Ensure document_ids is list-like for every row (guards: NaN, scalar, tuple)
+    text_units["document_ids"] = _ensure_list_column(text_units["document_ids"])\
+    #ここまで
+
+    exploded = (
+        text_units.explode("document_ids")
+        .loc[:, ["id", "document_ids", "text"]]
+        .rename(
+            columns={
+                "document_ids": "chunk_doc_id",
+                "id": "chunk_id",
+                "text": "chunk_text",
+            }
+        )
+    )
+
+    joined = exploded.merge(
+        documents,
+        left_on="chunk_doc_id",
+        right_on="id",
+        how="inner",
+        copy=False,
+    )
+
+    docs_with_text_units = joined.groupby("id", sort=False).agg(
+        text_unit_ids=("chunk_id", list)
+    )
+
+    rejoined = docs_with_text_units.merge(
+        documents,
+        on="id",
+        how="right",
+        copy=False,
+    ).reset_index(drop=True)
+
+    rejoined["id"] = rejoined["id"].astype(str)
+    rejoined["human_readable_id"] = rejoined.index
+
+    if "metadata" not in rejoined.columns:
+        rejoined["metadata"] = pd.Series(dtype="object")
+
+    #TFIDF版の時はコメントアウト外す
+    # final safety: if text_unit_ids column missing or contains NaN, replace with empty list
+    if "text_unit_ids" not in rejoined.columns:
+        rejoined["text_unit_ids"] = [[] for _ in range(len(rejoined))]
+    else:
+        rejoined["text_unit_ids"] = _ensure_list_column(rejoined["text_unit_ids"])
+    #ここまで
+
+    return rejoined.loc[:, DOCUMENTS_FINAL_COLUMNS]
