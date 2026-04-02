@@ -1,0 +1,1002 @@
+[
+  {
+    "question_id": "q001",
+    "persona_id": "p1",
+    "task_id": "p1_t1",
+    "question_text": "How have recent advancements in artificial intelligence influenced economic productivity across different sectors, and what are the projected long-term effects on global job markets?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q002",
+    "persona_id": "p1",
+    "task_id": "p1_t1",
+    "question_text": "In what ways have technological innovations in communication and information dissemination altered public perceptions of economic stability in various regions over the past five years?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q003",
+    "persona_id": "p1",
+    "task_id": "p1_t1",
+    "question_text": "What patterns can be identified in the relationship between technological development and economic inequality, and how do these patterns vary across different countries and industries?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q004",
+    "persona_id": "p1",
+    "task_id": "p1_t1",
+    "question_text": "How have shifts in technology-related regulations impacted economic growth in emerging markets compared to established economies, and what implications does this have for global trade dynamics?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q005",
+    "persona_id": "p1",
+    "task_id": "p1_t1",
+    "question_text": "What are the major narrative shifts observed in news coverage regarding the intersection of technology and economic policy, and how do these shifts reflect broader societal attitudes towards innovation and economic change?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q006",
+    "persona_id": "p1",
+    "task_id": "p1_t2",
+    "question_text": "How do the climate change initiatives proposed by different governments reflect their respective political ideologies, and what implications do these ideologies have on the perceived effectiveness of these policies across various news sources?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q007",
+    "persona_id": "p1",
+    "task_id": "p1_t2",
+    "question_text": "In what ways do media narratives surrounding climate change initiatives vary among countries, and how do these narratives influence public perception and acceptance of the policies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q008",
+    "persona_id": "p1",
+    "task_id": "p1_t2",
+    "question_text": "What patterns can be identified in the reporting of the outcomes of climate change initiatives across different governments, and how do these outcomes compare in terms of environmental impact and public response?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q009",
+    "persona_id": "p1",
+    "task_id": "p1_t2",
+    "question_text": "How do conflicting viewpoints presented in the news articles shape the discourse on the effectiveness of climate change policies implemented by various governments, and what are the implications for future policy-making?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q010",
+    "persona_id": "p1",
+    "task_id": "p1_t2",
+    "question_text": "In analyzing the coverage of international climate agreements and commitments, what differences emerge in how various governments are portrayed in terms of accountability and progress, and what factors contribute to these differing portrayals?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q011",
+    "persona_id": "p1",
+    "task_id": "p1_t3",
+    "question_text": "How have public health policies evolved in response to major health crises over the past decade, and what political factors have influenced these changes across different countries?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q012",
+    "persona_id": "p1",
+    "task_id": "p1_t3",
+    "question_text": "In what ways have media narratives shaped public perception of health crises, and how do these narratives differ in their portrayal of political and economic responses across various regions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q013",
+    "persona_id": "p1",
+    "task_id": "p1_t3",
+    "question_text": "What are the key themes that emerge from the intersection of economic policy and public health responses in the news coverage of recent health crises, and how do these themes reflect societal attitudes towards government intervention?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q014",
+    "persona_id": "p1",
+    "task_id": "p1_t3",
+    "question_text": "How do the responses to public health emergencies vary across political ideologies, and what implications do these differences have for societal trust in health communication as depicted in the news articles?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q015",
+    "persona_id": "p1",
+    "task_id": "p1_t3",
+    "question_text": "What patterns can be identified in the reporting of public health crises that highlight the relationship between political leadership and societal impact, and how do these patterns inform future policy recommendations?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q016",
+    "persona_id": "p1",
+    "task_id": "p1_t4",
+    "question_text": "How has the portrayal of immigration policies in news articles shifted over the past decade, and what key events or societal changes appear to correlate with these shifts in representation?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q017",
+    "persona_id": "p1",
+    "task_id": "p1_t4",
+    "question_text": "In what ways do differing media narratives about immigration reflect varying public sentiments across different demographic groups, and how have these narratives evolved over time?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q018",
+    "persona_id": "p1",
+    "task_id": "p1_t4",
+    "question_text": "What themes and framing techniques are most prevalent in articles that support or oppose immigration policies, and how do these themes vary across different time periods?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q019",
+    "persona_id": "p1",
+    "task_id": "p1_t4",
+    "question_text": "How do comparisons between articles from politically liberal, conservative, and neutral sources reveal the impact of editorial bias on public understanding of immigration issues over the years?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q020",
+    "persona_id": "p1",
+    "task_id": "p1_t4",
+    "question_text": "To what extent do articles from different time periods emphasize economic versus humanitarian aspects of immigration, and how might these emphases influence public opinion and policy decisions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q021",
+    "persona_id": "p1",
+    "task_id": "p1_t5",
+    "question_text": "How have global privacy laws evolved over the last decade in response to advancements in technology, and what common themes can be identified across different countries' legislative changes?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q022",
+    "persona_id": "p1",
+    "task_id": "p1_t5",
+    "question_text": "In what ways has public sentiment regarding privacy and technology shifted over the past ten years, and how do these shifts correlate with legislative actions and industry responses?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q023",
+    "persona_id": "p1",
+    "task_id": "p1_t5",
+    "question_text": "What are the key differences and similarities in the approaches taken by various countries to balance technological innovation with privacy protection, and how have these approaches influenced global standards?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q024",
+    "persona_id": "p1",
+    "task_id": "p1_t5",
+    "question_text": "How have major industry players adapted their policies and practices in response to changing privacy laws and public sentiment, and what impact has this had on the overall landscape of technology and privacy?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q025",
+    "persona_id": "p1",
+    "task_id": "p1_t5",
+    "question_text": "What narrative trends can be observed in news coverage surrounding privacy legislation over the last decade, and how do these narratives reflect broader societal attitudes towards technology's impact on personal privacy?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q026",
+    "persona_id": "p2",
+    "task_id": "p2_t1",
+    "question_text": "What are the key economic indicators across different sectors that suggest varying rates of recovery post-pandemic, and how do these indicators influence strategic business decisions for the upcoming fiscal year?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q027",
+    "persona_id": "p2",
+    "task_id": "p2_t1",
+    "question_text": "How have consumer behavior and spending patterns evolved in response to the pandemic across various industries, and what implications do these changes have for future market strategies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q028",
+    "persona_id": "p2",
+    "task_id": "p2_t1",
+    "question_text": "In what ways have government policies and stimulus measures impacted the recovery trajectories of different sectors, and how should businesses adapt their strategies in light of these developments?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q029",
+    "persona_id": "p2",
+    "task_id": "p2_t1",
+    "question_text": "How do the narratives surrounding global supply chain disruptions post-pandemic differ across industries, and what strategic insights can be drawn from these narratives for future operational planning?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q030",
+    "persona_id": "p2",
+    "task_id": "p2_t1",
+    "question_text": "What are the emerging trends in workforce dynamics and employment patterns across sectors post-pandemic, and how might these trends shape business strategies regarding talent acquisition and retention?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q031",
+    "persona_id": "p2",
+    "task_id": "p2_t2",
+    "question_text": "How have technological advancements influenced the evolution of remote work practices in various industries, and what key advantages have been identified in the news articles over time?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q032",
+    "persona_id": "p2",
+    "task_id": "p2_t2",
+    "question_text": "In what ways do the challenges associated with remote work differ across industries as reported in the news, and how do these challenges relate to the specific technological tools adopted?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q033",
+    "persona_id": "p2",
+    "task_id": "p2_t2",
+    "question_text": "What patterns or trends can be observed in the advantages and disadvantages of remote work practices as industries adapt to technological changes, based on the synthesis of perspectives presented in the articles?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q034",
+    "persona_id": "p2",
+    "task_id": "p2_t2",
+    "question_text": "How do different industries perceive the long-term sustainability of remote work practices in light of technological advancements, and what concerns or predictions have emerged from the news coverage?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q035",
+    "persona_id": "p2",
+    "task_id": "p2_t2",
+    "question_text": "What are the contrasting viewpoints regarding the effectiveness of remote work across various sectors, as highlighted in the articles, and how do these perspectives reflect the impact of technology on workforce dynamics?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q036",
+    "persona_id": "p2",
+    "task_id": "p2_t3",
+    "question_text": "How have different countries' climate change policies evolved over the past decade, and what common themes or divergent strategies can be identified that may impact global market dynamics?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q037",
+    "persona_id": "p2",
+    "task_id": "p2_t3",
+    "question_text": "In what ways do the narratives surrounding climate change legislation differ among major economies, and how might these differences affect international trade relationships and investment decisions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q038",
+    "persona_id": "p2",
+    "task_id": "p2_t3",
+    "question_text": "What are the projected economic impacts of the latest climate change initiatives in various regions, and how should businesses adapt their strategies in response to these emerging policies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q039",
+    "persona_id": "p2",
+    "task_id": "p2_t3",
+    "question_text": "How do public sentiments and political discourse around climate change influence governmental policy decisions in key markets, and what implications does this have for multinational companies operating in those regions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q040",
+    "persona_id": "p2",
+    "task_id": "p2_t3",
+    "question_text": "What role do technological advancements play in shaping climate change strategies across different countries, and how should businesses leverage these trends to enhance their competitive advantage in an evolving regulatory landscape?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q041",
+    "persona_id": "p2",
+    "task_id": "p2_t4",
+    "question_text": "How do different news articles portray the impact of political instability on foreign investment trends in emerging economies over the last decade, and what common themes or contrasting viewpoints emerge from these narratives?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q042",
+    "persona_id": "p2",
+    "task_id": "p2_t4",
+    "question_text": "In what ways do news articles from various domains illustrate the correlation between political unrest and stock market fluctuations in emerging markets, and what insights can be drawn from these analyses regarding investor behavior?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q043",
+    "persona_id": "p2",
+    "task_id": "p2_t4",
+    "question_text": "What are the predominant arguments presented in the corpus regarding the short-term versus long-term effects of political instability on economic growth in emerging economies, and how do these viewpoints differ across various regions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q044",
+    "persona_id": "p2",
+    "task_id": "p2_t4",
+    "question_text": "How do diverse news articles address the role of government responses to political crises in shaping market performance, and what patterns can be identified in these discussions across different emerging economies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q045",
+    "persona_id": "p2",
+    "task_id": "p2_t4",
+    "question_text": "What insights can be synthesized from the corpus about the interplay between public sentiment, as reflected in news coverage, and market reactions during periods of political instability in emerging markets?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q046",
+    "persona_id": "p2",
+    "task_id": "p2_t5",
+    "question_text": "How has the digitalization of services influenced consumer trust and loyalty across different sectors, and what implications does this have for business strategies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q047",
+    "persona_id": "p2",
+    "task_id": "p2_t5",
+    "question_text": "In what ways have varying consumer behaviors emerged in response to the digitalization of services in sectors like retail, healthcare, and finance, and how can businesses adapt their models accordingly?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q048",
+    "persona_id": "p2",
+    "task_id": "p2_t5",
+    "question_text": "What are the key societal shifts identified in the corpus related to the impact of digital services on traditional business practices, and how do these shifts vary across different industries?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q049",
+    "persona_id": "p2",
+    "task_id": "p2_t5",
+    "question_text": "How do the narratives surrounding digitalization reflect changing consumer values and priorities, and what insights can businesses glean to inform their strategic direction?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q050",
+    "persona_id": "p2",
+    "task_id": "p2_t5",
+    "question_text": "What comparisons can be drawn from the evolution of business models in response to digitalization across different sectors, and what common themes emerge that could guide future strategic decisions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q051",
+    "persona_id": "p3",
+    "task_id": "p3_t1",
+    "question_text": "How have the predominant narratives surrounding renewable energy policies shifted over the last decade, and what key events or developments have influenced these changes in public sentiment?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q052",
+    "persona_id": "p3",
+    "task_id": "p3_t1",
+    "question_text": "What are the major themes and concerns expressed in news articles about renewable energy policies across various political and economic contexts over the last ten years?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q053",
+    "persona_id": "p3",
+    "task_id": "p3_t1",
+    "question_text": "In what ways do differing viewpoints on renewable energy policies reflect broader societal attitudes towards climate change and sustainability throughout the past decade?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q054",
+    "persona_id": "p3",
+    "task_id": "p3_t1",
+    "question_text": "How do regional differences in public sentiment regarding renewable energy policies manifest in the news articles, and what factors contribute to these variations?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q055",
+    "persona_id": "p3",
+    "task_id": "p3_t1",
+    "question_text": "What patterns can be identified in the evolution of public sentiment towards renewable energy policies as presented in the corpus, and how do these patterns correlate with shifts in political leadership or policy changes?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q056",
+    "persona_id": "p3",
+    "task_id": "p3_t2",
+    "question_text": "What are the predominant themes in the economic recovery strategies reported in the news articles from North America compared to those from Europe during the pandemic, and how do these themes reflect regional priorities and challenges?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q057",
+    "persona_id": "p3",
+    "task_id": "p3_t2",
+    "question_text": "How do the proposed fiscal policies for economic recovery differ between emerging economies and developed nations as depicted in the news articles, and what implications do these differences have for long-term recovery?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q058",
+    "persona_id": "p3",
+    "task_id": "p3_t2",
+    "question_text": "In what ways do the narratives surrounding government interventions in economic recovery during the pandemic vary across different regions, and how do these narratives influence public perception of effectiveness?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q059",
+    "persona_id": "p3",
+    "task_id": "p3_t2",
+    "question_text": "What similarities and differences can be identified in the role of technology and innovation in economic recovery strategies as highlighted in the news articles from Asia versus those from the Americas?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q060",
+    "persona_id": "p3",
+    "task_id": "p3_t2",
+    "question_text": "How do the discussions around societal impacts of economic recovery strategies differ across various regions, particularly in terms of addressing inequality and social welfare, as presented in the news articles?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q061",
+    "persona_id": "p3",
+    "task_id": "p3_t3",
+    "question_text": "How do varying perspectives on the impact of automation on employment opportunities differ across industries such as manufacturing, healthcare, and technology, and what common themes emerge from these viewpoints?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q062",
+    "persona_id": "p3",
+    "task_id": "p3_t3",
+    "question_text": "In what ways do articles highlight the potential for technological advancements to create new job categories, and how do these predictions vary by region or economic context within the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q063",
+    "persona_id": "p3",
+    "task_id": "p3_t3",
+    "question_text": "What are the contrasting arguments presented in the articles regarding the long-term effects of artificial intelligence on job displacement versus job creation, and how do these arguments reflect differing economic theories or models?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q064",
+    "persona_id": "p3",
+    "task_id": "p3_t3",
+    "question_text": "How do the narratives around the future of remote work and its technological enablers differ across various sectors, and what implications do these narratives have for workforce development and policy-making?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q065",
+    "persona_id": "p3",
+    "task_id": "p3_t3",
+    "question_text": "What insights can be drawn from the articles about the socio-economic factors that influence the adaptability of different industries to technological change, and how do these factors shape public perception of job market shifts?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q066",
+    "persona_id": "p3",
+    "task_id": "p3_t4",
+    "question_text": "How have the predominant arguments regarding climate change policy evolved in global political discourse over the last five years, and what key events or reports have influenced these shifts?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q067",
+    "persona_id": "p3",
+    "task_id": "p3_t4",
+    "question_text": "In what ways do different political factions interpret the implications of climate change, and how do their arguments reflect broader societal concerns or economic interests?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q068",
+    "persona_id": "p3",
+    "task_id": "p3_t4",
+    "question_text": "What counterarguments to climate change action have emerged in political narratives, and how have these counterarguments been challenged or supported by evidence from the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q069",
+    "persona_id": "p3",
+    "task_id": "p3_t4",
+    "question_text": "How do the narratives surrounding climate change in politics vary across different regions or countries, and what factors contribute to these regional differences in perspective?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q070",
+    "persona_id": "p3",
+    "task_id": "p3_t4",
+    "question_text": "What role do key international agreements and treaties play in shaping political narratives about climate change, and how do these narratives reflect or contradict public opinion as presented in the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q071",
+    "persona_id": "p3",
+    "task_id": "p3_t5",
+    "question_text": "How has the portrayal of social media's impact on political engagement evolved over time across different news articles, and what key events have influenced this narrative?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q072",
+    "persona_id": "p3",
+    "task_id": "p3_t5",
+    "question_text": "In what ways do varying viewpoints presented in the corpus reflect the relationship between social media usage and political engagement in different demographics or geographic regions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q073",
+    "persona_id": "p3",
+    "task_id": "p3_t5",
+    "question_text": "What common themes and patterns emerge from the analysis of articles discussing the role of social media in shaping political discourse and public opinion across multiple political contexts?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q074",
+    "persona_id": "p3",
+    "task_id": "p3_t5",
+    "question_text": "How do the findings about social media’s influence on political engagement compare across different domains (e.g., political campaigns, grassroots movements, policy advocacy) as represented in the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q075",
+    "persona_id": "p3",
+    "task_id": "p3_t5",
+    "question_text": "What implications can be drawn from the synthesis of articles regarding the future of political engagement in the context of increasing social media usage, considering both positive and negative perspectives?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q076",
+    "persona_id": "p4",
+    "task_id": "p4_t1",
+    "question_text": "How have different political parties' stances on climate change policies evolved over the past decade, and what major events or articles contributed to shifts in public sentiment towards these policies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q077",
+    "persona_id": "p4",
+    "task_id": "p4_t1",
+    "question_text": "In what ways has public perception of climate change policies varied across different economic contexts, and how is this reflected in news articles from various regions over the last ten years?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q078",
+    "persona_id": "p4",
+    "task_id": "p4_t1",
+    "question_text": "What are the predominant themes and narratives in news coverage regarding climate change policies, and how have these themes changed in response to significant environmental events or policy changes during the past decade?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q079",
+    "persona_id": "p4",
+    "task_id": "p4_t1",
+    "question_text": "How do the viewpoints expressed in news articles about climate change policies differ between developed and developing countries, and what implications do these differences have for global public sentiment?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q080",
+    "persona_id": "p4",
+    "task_id": "p4_t1",
+    "question_text": "What role have grassroots movements and public protests played in shaping media narratives around climate change policies over the past decade, and how have these narratives influenced public opinion as reflected in the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q081",
+    "persona_id": "p4",
+    "task_id": "p4_t2",
+    "question_text": "How do different news outlets characterize the potential benefits of artificial intelligence, and what ethical considerations do they highlight in relation to these advancements?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q082",
+    "persona_id": "p4",
+    "task_id": "p4_t2",
+    "question_text": "In what ways do varying perspectives on the societal impact of artificial intelligence reflect the political affiliations or biases of different news sources within the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q083",
+    "persona_id": "p4",
+    "task_id": "p4_t2",
+    "question_text": "How do the narratives surrounding the ethical implications of artificial intelligence evolve over time across the articles, and what key events or developments appear to influence these shifts?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q084",
+    "persona_id": "p4",
+    "task_id": "p4_t2",
+    "question_text": "What themes emerge when comparing the coverage of artificial intelligence's impact on employment and job displacement, and how do these themes differ among various media outlets?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q085",
+    "persona_id": "p4",
+    "task_id": "p4_t2",
+    "question_text": "How do journalists from different news organizations frame the debate on accountability and regulation of artificial intelligence, and what arguments do they present to support their positions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q086",
+    "persona_id": "p4",
+    "task_id": "p4_t3",
+    "question_text": "What are the common themes and narratives observed in the economic recovery efforts of different countries, and how do these reflect their unique socio-political contexts?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q087",
+    "persona_id": "p4",
+    "task_id": "p4_t3",
+    "question_text": "How have public responses to economic recovery initiatives varied across countries, and what factors have influenced these differing perceptions and reactions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q088",
+    "persona_id": "p4",
+    "task_id": "p4_t3",
+    "question_text": "In what ways have government policies and interventions shaped the economic outcomes in various nations post-pandemic, and how do these approaches compare across regions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q089",
+    "persona_id": "p4",
+    "task_id": "p4_t3",
+    "question_text": "What role has international cooperation or competition played in the economic recovery processes of countries, and how has this impacted their overall success?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q090",
+    "persona_id": "p4",
+    "task_id": "p4_t3",
+    "question_text": "How do the long-term economic consequences of post-pandemic recovery efforts differ between countries, and what key elements contributed to these divergent outcomes?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q091",
+    "persona_id": "p4",
+    "task_id": "p4_t4",
+    "question_text": "How has the framing of social movements in news articles evolved over the past two decades, particularly in relation to key events and shifts in public opinion?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q092",
+    "persona_id": "p4",
+    "task_id": "p4_t4",
+    "question_text": "In what ways do different media outlets portray the motivations and goals of various social movements, and how has this portrayal changed in response to societal developments?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q093",
+    "persona_id": "p4",
+    "task_id": "p4_t4",
+    "question_text": "What patterns can be identified in the coverage of social movements across different political and economic contexts, and how do these patterns reflect broader societal attitudes over time?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q094",
+    "persona_id": "p4",
+    "task_id": "p4_t4",
+    "question_text": "How has the role of social media and digital platforms influenced the reporting and public perception of social movements, as reflected in the articles throughout the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q095",
+    "persona_id": "p4",
+    "task_id": "p4_t4",
+    "question_text": "To what extent do the narratives surrounding social movements in the corpus demonstrate a shift in journalistic practices, such as bias, objectivity, or advocacy, and how do these shifts correlate with changes in public discourse?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q096",
+    "persona_id": "p4",
+    "task_id": "p4_t5",
+    "question_text": "How have recent political decisions in various countries influenced key economic indicators such as unemployment rates, inflation, and GDP growth over the past decade, and what patterns can be identified from these relationships?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q097",
+    "persona_id": "p4",
+    "task_id": "p4_t5",
+    "question_text": "In what ways do differing political ideologies across nations shape their economic policies, and how are these policies reflected in the performance of specific economic indicators reported in the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q098",
+    "persona_id": "p4",
+    "task_id": "p4_t5",
+    "question_text": "What trends can be observed in the relationship between government regulations and economic performance, particularly in sectors such as technology and finance, as reported in the news articles over time?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q099",
+    "persona_id": "p4",
+    "task_id": "p4_t5",
+    "question_text": "How do public sentiment and media portrayal of political events correlate with shifts in economic indicators, and what implications does this have for future policy-making as evidenced in the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q100",
+    "persona_id": "p4",
+    "task_id": "p4_t5",
+    "question_text": "What are the long-term implications of recent political crises on economic stability and growth, and how do articles from different time periods reflect evolving narratives around these issues?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q101",
+    "persona_id": "p5",
+    "task_id": "p5_t1",
+    "question_text": "How have the narratives surrounding climate change policies evolved in key countries over the past decade, and what are the major similarities and differences in public sentiment across these nations?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q102",
+    "persona_id": "p5",
+    "task_id": "p5_t1",
+    "question_text": "In what ways have shifts in political leadership and policy decisions influenced public opinion on climate change across different regions, and how do these changes reflect broader societal trends?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q103",
+    "persona_id": "p5",
+    "task_id": "p5_t1",
+    "question_text": "What are the predominant themes and arguments presented in news articles about climate change policy over the last ten years, and how do they reflect changes in public awareness and activism?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q104",
+    "persona_id": "p5",
+    "task_id": "p5_t1",
+    "question_text": "How have major global climate events and scientific reports impacted the discourse surrounding climate change policy in various countries, and what patterns can be identified in the responses from different governments and their citizens?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q105",
+    "persona_id": "p5",
+    "task_id": "p5_t1",
+    "question_text": "What role have social movements and grassroots organizations played in shaping public opinion and policy changes related to climate change across different parts of the world, and how have their narratives evolved over time?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q106",
+    "persona_id": "p5",
+    "task_id": "p5_t2",
+    "question_text": "How have technological advancements in automation and artificial intelligence affected employment rates in various sectors, and what are the contrasting views presented in the news articles regarding these impacts?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q107",
+    "persona_id": "p5",
+    "task_id": "p5_t2",
+    "question_text": "In what ways do news articles depict the influence of digital transformation on job creation and job displacement across different industries, and how do these narratives evolve over time?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q108",
+    "persona_id": "p5",
+    "task_id": "p5_t2",
+    "question_text": "What are the reported benefits and challenges of remote work technology on workforce dynamics in sectors such as education, healthcare, and corporate environments, as discussed in the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q109",
+    "persona_id": "p5",
+    "task_id": "p5_t2",
+    "question_text": "How do news articles compare the responses of different sectors to the challenges posed by technological change, particularly in terms of workforce retraining and adaptation strategies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q110",
+    "persona_id": "p5",
+    "task_id": "p5_t2",
+    "question_text": "What themes emerge from the news coverage regarding the long-term societal implications of technological advancements on employment, and how do various sectors respond to these changes?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q111",
+    "persona_id": "p5",
+    "task_id": "p5_t3",
+    "question_text": "How have social justice movements in different regions adapted their strategies to address the specific impacts of economic inequality over the last two decades?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q112",
+    "persona_id": "p5",
+    "task_id": "p5_t3",
+    "question_text": "In what ways do case studies from various countries illustrate the relationship between economic inequality and the effectiveness of social justice advocacy efforts?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q113",
+    "persona_id": "p5",
+    "task_id": "p5_t3",
+    "question_text": "What thematic similarities and differences can be identified in how economic inequality is portrayed in news articles covering social justice movements across diverse regions?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q114",
+    "persona_id": "p5",
+    "task_id": "p5_t3",
+    "question_text": "How have economic policies in different countries influenced the narratives and goals of social justice movements, and what lessons can be drawn from these intersections?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q115",
+    "persona_id": "p5",
+    "task_id": "p5_t3",
+    "question_text": "What role do grassroots movements play in shaping public discourse around economic inequality and social justice, as evidenced by case studies from multiple regions in the corpus?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q116",
+    "persona_id": "p5",
+    "task_id": "p5_t4",
+    "question_text": "How have different media outlets' portrayals of immigration policies evolved over the past decade, and what trends can be identified in the language and framing used to describe these policies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q117",
+    "persona_id": "p5",
+    "task_id": "p5_t4",
+    "question_text": "In what ways do the perspectives on immigration policies differ between mainstream news outlets and alternative media sources, and how might these differences influence public opinion?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q118",
+    "persona_id": "p5",
+    "task_id": "p5_t4",
+    "question_text": "What narratives or themes emerge from the coverage of immigration policies across various domains (e.g., politics, economics, technology) in the corpus, and how do these narratives reflect or challenge societal attitudes towards immigration?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q119",
+    "persona_id": "p5",
+    "task_id": "p5_t4",
+    "question_text": "How do shifts in media coverage related to major political events or crises (e.g., elections, policy changes, humanitarian issues) impact the public discourse surrounding immigration policies over time?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q120",
+    "persona_id": "p5",
+    "task_id": "p5_t4",
+    "question_text": "What role do visual elements (such as images, infographics, and videos) play in shaping the narratives presented by different media outlets on immigration policies, and how do these elements complement or contradict the written content?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q121",
+    "persona_id": "p5",
+    "task_id": "p5_t5",
+    "question_text": "What common strategies and interventions were implemented by governments worldwide in response to the COVID-19 pandemic, and how did their effectiveness vary based on regional context and public compliance?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q122",
+    "persona_id": "p5",
+    "task_id": "p5_t5",
+    "question_text": "How did different nations communicate their COVID-19 policies to the public, and what impact did these communication strategies have on public perception and adherence to health guidelines?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q123",
+    "persona_id": "p5",
+    "task_id": "p5_t5",
+    "question_text": "In what ways did government responses to the COVID-19 pandemic reflect existing social inequalities, and how did these responses either mitigate or exacerbate disparities in health outcomes among various communities?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q124",
+    "persona_id": "p5",
+    "task_id": "p5_t5",
+    "question_text": "What lessons can be drawn from the comparative analysis of government responses to COVID-19 in terms of crisis management, and what best practices emerged that could inform future public health policies?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "question_id": "q125",
+    "persona_id": "p5",
+    "task_id": "p5_t5",
+    "question_text": "How did the evolving narratives around COVID-19 in news articles reveal shifts in public sentiment towards government actions, and what implications might these shifts have for future governance and public trust?",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  }
+]
