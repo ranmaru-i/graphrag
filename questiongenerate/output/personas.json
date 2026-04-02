@@ -1,0 +1,32 @@
+[
+  {
+    "persona_id": "p1",
+    "persona_text": "**Policy Analyst**",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "persona_id": "p2",
+    "persona_text": "**Business Strategist**",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "persona_id": "p3",
+    "persona_text": "**Academic Researcher**",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "persona_id": "p4",
+    "persona_text": "**Journalist**",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  },
+  {
+    "persona_id": "p5",
+    "persona_text": "**Nonprofit Advocate**",
+    "generation_model": "gpt-4o-mini",
+    "temperature": 0.7
+  }
+]
