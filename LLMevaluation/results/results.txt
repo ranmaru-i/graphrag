@@ -1,0 +1,79 @@
+new_10000_preview
+    previewあり
+    threshold: 0.02        
+    min_df: 2      
+    max_df: 0.5     
+    max_features: 100000
+    max_context_tokens: 10000
+    top_k=10
+
+    [comprehensiveness]
+      Win rate (%)  : 46.88
+
+    [directness]
+      Win rate (%)  : 49.28
+
+    [diversity]
+      Win rate (%)  : 50.08
+
+    [empowerment]
+      Win rate (%)  : 40.48
+
+new_10000
+    previewなし
+    threshold: 0.02        
+    min_df: 2      
+    max_df: 0.5     
+    max_features: 100000
+    max_context_tokens: 10000
+    top_k=10
+
+    [comprehensiveness]
+      Win rate (%)  : 46.56
+
+    [directness]
+      Win rate (%)  : 51.84
+
+    [diversity]
+      Win rate (%)  : 49.76
+
+    [empowerment]
+      Win rate (%)  : 42.56
+
+new_10000_5
+    previewなし
+    threshold: 0.02        
+    min_df: 2      
+    max_df: 0.5     
+    max_features: 100000
+    max_context_tokens: 10000
+    top_k=5
+
+    [comprehensiveness]
+      Win rate (%)  : 49.60
+
+    [directness]
+      Win rate (%)  : 47.20
+
+    [diversity]
+      Win rate (%)  : 49.92
+
+    [empowerment]
+      Win rate (%)  : 40.48
+
+new_10000_5_preview
+    previewあり
+    threshold: 0.02        
+    min_df: 2      
+    max_df: 0.5     
+    max_features: 100000
+    max_context_tokens: 10000
+    top_k=5
+
+(new_0.03)
+    previewなし
+    threshold: 0.03        
+    min_df: 2      
+    max_df: 0.5     
+    max_features: 100000
+    max_context_tokens: 10000
