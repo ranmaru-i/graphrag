@@ -1,0 +1,23 @@
+{
+    "total_runtime": 2.7082979679107666,
+    "num_documents": 609,
+    "update_documents": 0,
+    "input_load_time": 0,
+    "workflows": {
+        "load_input_documents": {
+            "overall": 0.307236909866333
+        },
+        "create_doc_text_units": {
+            "overall": 0.1879279613494873
+        },
+        "create_final_documents": {
+            "overall": 0.060624122619628906
+        },
+        "tfidf_extract_graph": {
+            "overall": 1.1583621501922607
+        },
+        "finalize_graph": {
+            "overall": 0.9915828704833984
+        }
+    }
+}
